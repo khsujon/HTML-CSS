@@ -1,0 +1,14 @@
+#colspn{
+    border: 2px solid;
+    padding: 10px;
+    width:fit-content;
+}
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+tr,th,td{
+    border: 2px solid;
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Order Form</h1>
+    <form action="process_order.php" method="POST">
+        <label for="category1">Category 1:</label>
+        <select name="category1" id="category1">
+            <!-- Populate with options from your database -->
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <label for="category2">Category 2:</label>
+        <select name="category2" id="category2">
+            <!-- Populate with options from your database -->
+            <option value="product3">Product 3</option>
+            <option value="product4">Product 4</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <input type="submit" value="Place Order">
+    </form>
+</body>
+</html>
